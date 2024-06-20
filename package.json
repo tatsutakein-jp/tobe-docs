@@ -1,0 +1,24 @@
+{
+  "name": "asis-docs",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.24.3",
+    "astro": "4.11.0",
+    "sharp": "0.33.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.7.0",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "lefthook": "1.6.17",
+    "typescript": "5.4.5"
+  }
+}
