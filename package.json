@@ -1,13 +1,21 @@
 {
   "name": "asis-docs",
+  "private": true,
   "type": "module",
   "version": "2024.6.1",
+  "license": "MIT",
+  "author": {
+    "name": "Ryo Takeuchi",
+    "url": "https://tatsutakein.jp"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "clean": "git clean -xdf node_modules",
+    "plop": "plop"
   },
   "dependencies": {
     "@astrojs/starlight": "0.24.4",
