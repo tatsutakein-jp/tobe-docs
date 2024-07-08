@@ -23,10 +23,10 @@
     "sharp": "0.33.4"
   },
   "devDependencies": {
-    "@astrojs/check": "0.7.0",
+    "@astrojs/check": "0.8.0",
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "lefthook": "1.6.18",
+    "lefthook": "1.7.0",
     "typescript": "5.5.3"
   }
 }
