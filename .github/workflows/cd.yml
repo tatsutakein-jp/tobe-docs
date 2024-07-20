@@ -13,8 +13,8 @@ jobs:
   deploy:
     uses: ./.github/workflows/wc-deploy-cloudflare-pages.yml
     with:
-      project-name: 'asis-docs-staging'
-      branch: 'main'
+      project-name: 'asis-docs'
+      branch: 'staging'
       gh-app-id: ${{ vars.BOT_APP_ID }}
       pr-comment-enabled: false
     secrets:
