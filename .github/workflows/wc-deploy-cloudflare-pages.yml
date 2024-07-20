@@ -70,4 +70,4 @@ jobs:
           gitHubAccessToken: ${{ steps.app-token.outputs.token }}
           locale: ja
           prCommentEnabled: ${{ inputs.pr-comment-enabled }}
-          urls: ${{ steps.cloudflare-pages.outputs.url }}
+          urls: ${{ steps.cloudflare-pages.outputs.deployment-url }}
