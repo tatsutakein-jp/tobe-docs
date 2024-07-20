@@ -2,7 +2,7 @@
   "name": "asis-docs",
   "private": true,
   "type": "module",
-  "version": "2024.6.1",
+  "version": "2024.7.0",
   "license": "MIT",
   "author": {
     "name": "Ryo Takeuchi",
