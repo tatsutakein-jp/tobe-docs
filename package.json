@@ -18,8 +18,8 @@
     "plop": "plop"
   },
   "dependencies": {
-    "@astrojs/starlight": "0.28.5",
-    "astro": "4.16.8",
+    "@astrojs/starlight": "0.28.6",
+    "astro": "4.16.9",
     "sharp": "0.33.5"
   },
   "devDependencies": {
