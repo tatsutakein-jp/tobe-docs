@@ -18,15 +18,15 @@
     "plop": "plop"
   },
   "dependencies": {
-    "@astrojs/starlight": "0.32.6",
+    "@astrojs/starlight": "0.34.4",
     "astro": "4.16.18",
-    "sharp": "0.34.0"
+    "sharp": "0.34.2"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.4",
-    "@commitlint/cli": "19.8.0",
-    "@commitlint/config-conventional": "19.8.0",
-    "lefthook": "1.11.6",
+    "@commitlint/cli": "19.8.1",
+    "@commitlint/config-conventional": "19.8.1",
+    "lefthook": "1.11.13",
     "typescript": "5.8.3"
   }
 }
